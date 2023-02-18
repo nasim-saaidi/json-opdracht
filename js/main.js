@@ -29,15 +29,23 @@ const objectThree = JSON.stringify(pen.ballpoint);
 const objectFour = JSON.stringify(pen.inkChamber);
 const objectFive = JSON.stringify(pen.barrel);
 
-console.log(objectOne)
-console.log(objectTwo)
-console.log(objectThree)
-console.log(objectFour)
-console.log(objectFive)
+// console.log(objectOne)
+// console.log(objectTwo)
+// console.log(objectThree)
+// console.log(objectFour)
+// console.log(objectFive)
 
 //opdracht 4
 jsonArray = [objectOne, objectTwo, objectThree, objectFour, objectFive]
 
-for(let i = 0; i < jsonArray.length; i++) {
-    console.log(jsonArray[i])
+// for(let i = 0; i < jsonArray.length; i++) {
+//     console.log(jsonArray[i])
+// }
+//niks valt me op
+
+//opdracht 5
+function parseElements() {
+    for(let i = 0; i < jsonArray.length; i++) {
+        console.log(jsonArray[i])
+    }
 }
