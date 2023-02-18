@@ -21,7 +21,7 @@ function stringifyElements() {
     }
 }
 
-
+// stringifyElements();
 
 const objectOne = JSON.stringify(pen.ink);
 const objectTwo = JSON.stringify(pen.spring);
@@ -34,3 +34,10 @@ console.log(objectTwo)
 console.log(objectThree)
 console.log(objectFour)
 console.log(objectFive)
+
+//opdracht 4
+jsonArray = [objectOne, objectTwo, objectThree, objectFour, objectFive]
+
+for(let i = 0; i < jsonArray.length; i++) {
+    console.log(jsonArray[i])
+}
